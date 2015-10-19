@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogPPO</class>
+ <widget class="QDialog" name="DialogPPO">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>415</width>
+    <height>564</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ввод данных ППО</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/about/icons/logo.png</normaloff>:/about/icons/logo.png</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabPPO">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tabMain">
+      <attribute name="title">
+       <string>Общие</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="title">
+          <string>Предприятие</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelName">
+            <property name="text">
+             <string>Наименование</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEditName"/>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="labelCode">
+            <property name="text">
+             <string>Код</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QLineEdit" name="lineEditCode"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelPost">
+            <property name="text">
+             <string>Индекс</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEditPost"/>
+          </item>
+          <item row="1" column="2" colspan="2">
+           <widget class="QCheckBox" name="checkBoxUFace">
+            <property name="text">
+             <string>Юридическое лицо</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="labelAdress">
+            <property name="text">
+             <string>Почтовый адрес</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1" colspan="3">
+           <widget class="QLineEdit" name="lineEditAdress"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string>Руководители</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelRuk">
+            <property name="text">
+             <string>Руководитель</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEditRuk"/>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="labelTelRuk">
+            <property name="text">
+             <string>Тел/факс</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QLineEdit" name="lineEditTelRuk"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelPred">
+            <property name="text">
+             <string>Председатель 
+профкома</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEditPred"/>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="labelTelPred">
+            <property name="text">
+             <string>Тел/факс</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QLineEdit" name="lineEditTelPred"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="labelZam">
+            <property name="text">
+             <string>Заместитель 
+председателя</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEditZam"/>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="labelTelZam">
+            <property name="text">
+             <string>Тел/факс</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="QLineEdit" name="lineEditTelZam"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="title">
+          <string>Численность</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelChProf">
+            <property name="text">
+             <string>Численность работников за счет профсоюза</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEditChProf"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelChPred">
+            <property name="text">
+             <string>Численность работников за счет работодателя</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEditChPred"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_4">
+         <property name="title">
+          <string>Интервал профбилетов</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_6">
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelBDown">
+            <property name="text">
+             <string>от</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEditBDown"/>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="labelBUp">
+            <property name="text">
+             <string>до</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QLineEdit" name="lineEditBUp"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_5">
+         <property name="title">
+          <string>Профсоюз</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_7">
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelProf">
+            <property name="text">
+             <string>Наименование
+профсоюза</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1" colspan="3">
+           <widget class="QLineEdit" name="lineEditProf"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelSubject">
+            <property name="text">
+             <string>Субъект РФ</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEditSubject"/>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="labelOtrasl">
+            <property name="text">
+             <string>Отрасль</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QLineEdit" name="lineEditOtrasl"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabRecv">
+      <attribute name="title">
+       <string>Реквизиты</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QGroupBox" name="groupBox_6">
+         <property name="title">
+          <string>Реквизиты</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelUrAdress">
+            <property name="text">
+             <string>Юридический адрес</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEditUrAdress"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelNameBank">
+            <property name="text">
+             <string>Наименование банка</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEditNameBank"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="labelAdressBank">
+            <property name="text">
+             <string>Адрес банка</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEditAdressBank"/>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="labelINN">
+            <property name="text">
+             <string>ИНН</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QSpinBox" name="spinBoxINN"/>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="labelRasSchet">
+            <property name="text">
+             <string>Расчетный счет</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QLineEdit" name="lineEditRasSchet"/>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="labelKorrSchet">
+            <property name="text">
+             <string>Корр. счет</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QLineEdit" name="lineEditKorrSchet"/>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLabel" name="labelBIK">
+            <property name="text">
+             <string>БИК</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1">
+           <widget class="QLineEdit" name="lineEditBIK"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_2"/>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacerOK">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonOK">
+       <property name="text">
+        <string>Сохранить</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonCancel">
+       <property name="text">
+        <string>Отмена</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>tabPPO</tabstop>
+  <tabstop>pushButtonOK</tabstop>
+  <tabstop>pushButtonCancel</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

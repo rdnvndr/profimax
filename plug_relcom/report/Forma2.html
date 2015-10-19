@@ -1,0 +1,1333 @@
+<HTML>
+    <HEAD>
+        <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <STYLE> 
+        @media all { 
+             TABLE.SCREEN { height: 100%; width: 100%;}
+             TABLE.SCREEN TD {}
+             TABLE.PAGE {height: 842pt;width: 595pt; FONT-SIZE: 12pt;font-family:Sans-serif;}
+                          
+             TABLE.SPISOK {
+	        FONT-SIZE: 12pt;font-family:Sans-serif; 
+		<!-- white-space:NOWRAP; -->
+	     }
+
+             TABLE.SPISOK TD{ 
+		FONT-SIZE: 12pt;font-family:Sans-serif;
+		<!-- white-space:NOWRAP; -->
+	     }
+	
+        }
+	@media screen { 
+             BODY { background-color: #a0a0a4;}
+             TABLE.PAGE { 
+                  background-color: white; 
+                  border: solid black; 
+                  border-width: 1pt 5pt 5pt 1pt; 
+                  padding: 15pt; 
+                  height: 1035pt;
+                  width: 730pt; 
+             }
+        }
+        @media print { 
+            TABLE.SCREEN { height: 100%; width: 100%; }
+            TABLE.PAGE { height: 100%; width: 100%;padding: 15pt;}
+        }
+	
+	</STYLE>
+   
+    </HEAD>
+<script type="text/javascript">
+
+function getValue(name)
+{
+	
+	var param ="";
+    if (document.getElementById(name).type!="text")
+  	  param = document.getElementById(name).innerHTML;
+  	else
+  	  param = document.getElementById(name).value;
+  	
+  	
+  	
+    return param;
+}
+
+function setValue(name,value)
+{
+  if (document.getElementById(name).type!="text")
+	 document.getElementById(name).innerHTML=value;
+  else
+	 document.getElementById(name).value=value;
+}
+</script>
+
+<BODY>
+<TABLE CLASS="SCREEN"><TR><TD>
+<TABLE CLASS="PAGE"><TR><TD valign="top">
+
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 CLASS="SPISOK">
+<TR><TD>
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=100%>
+<TR>
+     <TD WIDTH=90%>Утверждена постановлением Исполкома ФНПР<BR>от 28.08.2002 г.,  № 4-26</TD>
+     <TD WIDTH=10%><U><B>Форма № 2</B></U></TD>
+</TR>
+</TABLE>
+
+<P ALIGN=RIGHT>
+<BR>
+<P ALIGN=CENTER><B>СТАТИСТИЧЕСКИЙ ОТЧЕТ<BR>
+первичной профсоюзной организации*<BR>
+за 20____ год</B></P>
+
+<P ALIGN=JUSTIFY>Отчет составляется каждой первичной профсоюзной 
+организацией по состоянию на 1 января и <U><B>не позднее 20 января</B></U>
+<U>представляется в территориальную организацию профсоюза</U>,
+а при ее отсутствии  &ndash; в территориальное объединение
+организаций профсоюзов и <U>в ЦК своего профсоюза</U>.
+</P>
+
+<P ALIGN=CENTER>
+	<B>I. Общие сведения</B>
+</P>
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 width=100%>
+<TR>
+   <TD width=1%>
+       Наименование&nbsp;профсоюза: 
+   </TD
+   <TD>
+       &nbsp;<B id="PROFNAME"></B>
+   </TD>   
+   </TR><TR>
+   <TD width=1%>
+   </TD
+   <TD STYLE="border: solid black; border-width: 0pt 0pt 1pt 0pt; width=100%" height=0>
+   </TD>
+</TR></TABLE>
+<br>
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 width=100%>
+<TR>
+   <TD width=1%>
+       Наименование&nbsp;организации: 
+   </TD
+   <TD id="ORGNAME">
+       &nbsp;
+   </TD>
+   </TR><TR>
+   <TD width=1%>
+   </TD
+   <TD STYLE="border: solid black; border-width: 0pt 0pt 1pt 0pt; width=100%" height=0>
+   </TD>
+</TR></TABLE>
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 width=100%>
+   <TD width=1%>
+       Адрес: 
+   </TD
+   <TD id="ADDRESS">
+       &nbsp;
+   </TD>   
+      </TR><TR>
+   <TD width=1%>
+   </TD
+   <TD STYLE="border: solid black; border-width: 0pt 0pt 1pt 0pt; width=100%" height=0>
+   </TD>
+</TR></TABLE>
+
+<br>
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 width=100%>
+   <TD width=1%>
+       Председатель&nbsp;первичной&nbsp;профсоюзной&nbsp;организации:
+   </TD
+   <TD id="PRED">
+       &nbsp;
+   </TD>
+      </TR><TR>
+   <TD width=1%>
+   </TD
+   <TD STYLE="border: solid black; border-width: 0pt 0pt 1pt 0pt; width=100%" height=0>
+   </TD>
+</TR></TABLE>
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 width=100%>
+<TR>
+   <TD width=1%>
+       Телефон: 
+   </TD
+   <TD id="PREDTEL">
+       &nbsp;
+   </TD>   
+      </TR><TR>
+   <TD width=1%>
+   </TD
+   <TD STYLE="border: solid black; border-width: 0pt 0pt 1pt 0pt; width=100%" height=0>
+   </TD>
+</TR></TABLE>
+<br>
+<P ALIGN=CENTER>
+<B>II. Профсоюзное членство</B><BR>
+</P>
+<P ALIGN=CENTER><BR>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=39>
+	<COL WIDTH=260>
+	<COL WIDTH=90>
+	<COL WIDTH=71>
+	<COL WIDTH=80>
+	<COL WIDTH=68>
+	<TR VALIGN=TOP>
+		<TD ROWSPAN=2 WIDTH=39 valign="middle">
+			<P ALIGN=CENTER><B>№№<BR>п/п</B></TD>
+		<TD ROWSPAN=2 WIDTH=260 valign="middle">
+			<P ALIGN=CENTER><B>Наименование показателей</B></TD>
+		<TD ROWSPAN=2 WIDTH=90 valign="middle">
+			<P ALIGN=CENTER>
+			<B>Всего</B>
+		</TD>
+		<TD COLSPAN=3 WIDTH=248 valign="middle">
+			<P ALIGN=CENTER><B>В  том числе:</B></TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=71 valign="middle">
+			<P ALIGN=CENTER><B>рабочих</B></TD>
+		<TD WIDTH=80 valign="middle">
+			<P ALIGN=CENTER><B>женщин</B></TD>
+		<TD WIDTH=68 valign="middle">
+			<P ALIGN=CENTER><B>молодежи до 35 лет</B></TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=39>
+			<P ALIGN=CENTER><B>1</B></TD>
+		<TD WIDTH=260>
+			<P ALIGN=CENTER><B>2</B></TD>
+		<TD WIDTH=90>
+			<P ALIGN=CENTER><B>3</B></TD>
+		<TD WIDTH=71>
+			<P ALIGN=CENTER><B>4</B></TD>
+		<TD WIDTH=80>
+			<P ALIGN=CENTER><B>5</B></TD>
+		<TD WIDTH=68>
+			<P ALIGN=CENTER><B>6</B></TD>
+	</TR>
+	<TR VALIGN=CENTER ALIGN=MIDDLE>
+		<TD WIDTH=39>
+			<P ALIGN=CENTER>1.</TD>
+		<TD WIDTH=260 ALIGN=LEFT>
+			<P>Всего работающих</TD>
+		<TD WIDTH=90 id="T1_13">
+		</TD>
+		<TD WIDTH=71 id="T1_14">
+		</TD>
+		<TD WIDTH=80 id="T1_15">
+		</TD>
+		<TD WIDTH=68 id="T1_16">
+		</TD>
+	</TR>
+	<TR VALIGN=TOP ALIGN=MIDDLE>
+		<TD WIDTH=39>
+			<P ALIGN=CENTER>2.</TD>
+		<TD WIDTH=260 ALIGN=LEFT>
+			<P>Из них членов профсоюза</TD>
+		<TD WIDTH=90 id="T1_23">
+		</TD>
+		<TD WIDTH=71  id="T1_24">
+		</TD>
+		<TD WIDTH=80  id="T1_25">
+		</TD>
+		<TD WIDTH=68  id="T1_26">
+		</TD>
+	</TR>
+	<TR VALIGN=TOP ALIGN=MIDDLE>
+		<TD WIDTH=39>
+			<P ALIGN=CENTER>3.</TD>
+		<TD WIDTH=260 ALIGN=LEFT>
+			<P>В т.ч., впервые принятых в члены профсоюза</TD>
+		<TD WIDTH=90  id="T1_33">
+		</TD>
+		<TD WIDTH=71  id="T1_34">
+		</TD>
+		<TD WIDTH=80  id="T1_35">
+		</TD>
+		<TD WIDTH=68  id="T1_36">
+		</TD>
+	</TR>
+	<TR VALIGN=TOP ALIGN=MIDDLE>
+		<TD WIDTH=39>
+			<P ALIGN=CENTER>4.</TD>
+		<TD WIDTH=260 ALIGN=LEFT>
+			<P>Всего учащихся учебных заведений</TD>
+		<TD WIDTH=90  id="T1_43">
+		</TD>
+		<TD WIDTH=71>
+			<P ALIGN=CENTER><B>х</B></TD>
+		<TD WIDTH=80  id="T1_45">
+		</TD>
+		<TD WIDTH=68  id="T1_46">
+		</TD>
+	</TR>
+	<TR VALIGN=TOP ALIGN=MIDDLE>
+		<TD WIDTH=39>
+			<P ALIGN=CENTER>5.</TD>
+		<TD WIDTH=260 ALIGN=LEFT>
+			<P>Из них членов профсоюза</TD>
+		<TD WIDTH=90  id="T1_53">
+		</TD>
+		<TD WIDTH=71>
+			<P ALIGN=CENTER><B>х</B></TD>
+		<TD WIDTH=80  id="T1_55">
+		</TD>
+		<TD WIDTH=68  id="T1_56">
+		</TD>
+	</TR>
+	<TR VALIGN=TOP ALIGN=MIDDLE>
+		<TD WIDTH=39>
+			<P ALIGN=CENTER>6.</TD>
+		<TD WIDTH=260 ALIGN=LEFT>
+			<P>В т.ч., впервые принятых в члены профсоюза</TD>
+		<TD WIDTH=90  id="T1_63">
+		</TD>
+		<TD WIDTH=71>
+			<P ALIGN=CENTER><B>х</B></TD>
+		<TD WIDTH=80  id="T1_65">
+		</TD>
+		<TD WIDTH=68  id="T1_66">
+		</TD>
+	</TR>
+	<TR VALIGN=TOP ALIGN=MIDDLE>
+		<TD WIDTH=39>
+			<P ALIGN=CENTER>7.</TD>
+		<TD WIDTH=260 ALIGN=LEFT>
+			<P>Всего работающих и учащихся (1+4)</TD>
+		<TD WIDTH=90 id="T1_73">
+		</TD>
+		<TD WIDTH=71 id="T1_74">
+		</TD>
+		<TD WIDTH=80  id="T1_75">
+		</TD>
+		<TD WIDTH=68  id="T1_76">
+		</TD>
+	</TR>
+	<TR VALIGN=TOP ALIGN=MIDDLE>
+		<TD WIDTH=39>
+			<P ALIGN=CENTER>8.</TD>
+		<TD WIDTH=260  ALIGN=LEFT>
+			<P>Из них членов профсоюза (2+5)</TD>
+		<TD WIDTH=90  id="T1_83">
+		</TD>
+		<TD WIDTH=71  id="T1_83">
+		</TD>
+		<TD WIDTH=80 id="T1_85">
+		</TD>
+		<TD WIDTH=68 id="T1_86">
+		</TD>
+	</TR>
+	<TR VALIGN=TOP ALIGN=MIDDLE>
+		<TD WIDTH=39>
+			<P ALIGN=CENTER>9.</TD>
+		<TD WIDTH=260  ALIGN=LEFT>
+			<P>Процент охвата профсоюзным членством работающих и
+			учащихся</TD>
+		<TD WIDTH=90  id="T1_93">
+		</TD>
+		<TD WIDTH=71  id="T1_94">
+		</TD>
+		<TD WIDTH=80  id="T1_95">
+		</TD>
+		<TD WIDTH=68  id="T1_96">
+		</TD>
+	</TR>
+	<TR VALIGN=TOP ALIGN=MIDDLE>
+		<TD WIDTH=39>
+			<P ALIGN=CENTER>10.</TD>
+		<TD WIDTH=260 ALIGN=LEFT>
+			<P>Членов профсоюза &ndash; неработающих
+			пенсионеров</TD>
+		<TD WIDTH=90  id="T1_103">
+		</TD>
+		<TD WIDTH=71>
+			<P ALIGN=CENTER><B>х</B></TD>
+		<TD WIDTH=80  id="T1_105">
+		</TD>
+		<TD WIDTH=68>
+			<P ALIGN=CENTER><B>х</B></TD>
+	</TR>
+	<TR VALIGN=TOP ALIGN=MIDDLE>
+		<TD WIDTH=39>
+			<P ALIGN=CENTER>11.</TD>
+		<TD WIDTH=260  ALIGN=LEFT>
+			<P>Членов профсоюза - безработных</TD>
+		<TD WIDTH=90  id="T1_113">
+		</TD>
+		<TD WIDTH=71  id="T1_114">
+		</TD>
+		<TD WIDTH=80 id="T1_115">
+		</TD>
+		<TD WIDTH=68  id="T1_116">
+		</TD>
+	</TR>
+	<TR VALIGN=TOP ALIGN=MIDDLE>
+		<TD WIDTH=39>
+			<P ALIGN=CENTER>12.</TD>
+		<TD WIDTH=260 ALIGN=LEFT>
+			<P>Всего членов профсоюза</TD>
+		<TD WIDTH=90 id="T1_123">
+		</TD>
+		<TD WIDTH=71 id="T1_124">
+		</TD>
+		<TD WIDTH=80 id="T1_125">
+		</TD>
+		<TD WIDTH=68 id="T1_126">
+		</TD>
+	</TR>
+	<TR VALIGN=TOP ALIGN=MIDDLE>
+		<TD WIDTH=39>
+			<P ALIGN=CENTER>13.</TD>
+		<TD WIDTH=260 ALIGN=LEFT>
+			<P>Вышли из профсоюза по собствен-ному желанию</TD>
+		<TD WIDTH=90  id="T1_133">
+		</TD>
+		<TD WIDTH=71  id="T1_134">
+		</TD>
+		<TD WIDTH=80  id="T1_135">
+		</TD>
+		<TD WIDTH=68  id="T1_136">
+		</TD>
+	</TR>
+	<TR VALIGN=TOP ALIGN=MIDDLE>
+		<TD WIDTH=39>
+			<P ALIGN=CENTER>14. 
+		</TD>
+		<TD WIDTH=260 ALIGN=LEFT>
+			<P>Исключено из профсоюза</TD>
+		<TD WIDTH=90 id="T1_143">
+		</TD>
+		<TD WIDTH=71 id="T1_144">
+		</TD>
+		<TD WIDTH=80 id="T1_145">
+		</TD>
+		<TD WIDTH=68 id="T1_146">
+		</TD>
+	</TR>
+</TABLE>
+<P ALIGN=JUSTIFY><B>	</B><U>Пункт
+13.</U> Учитываются только лица, вышедшие из
+профсоюза по собственному желанию на основании письменного или
+устного заявления, но продолжающие работать или учиться. Лица,
+уволенные с предприятия, учреждения или отчисленные из учебного
+заведения в данной строке не указываются.<P ALIGN=JUSTIFY>
+
+		</TD>
+	</TR>
+</TABLE>
+
+
+</TD></TR></TABLE>
+
+<DIV style="page-break-after:always"></DIV>
+
+
+<TABLE CLASS="PAGE"><TR><TD valign="top">
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 CLASS="SPISOK">
+<TR><TD>
+
+<P ALIGN=CENTER><B>III. Профсоюзные кадры и актив</B></P>
+<BR>
+<CENTER>
+	<TABLE WIDTH=100% BORDER=1 CELLPADDING=7 CELLSPACING=0>
+		<COL WIDTH=32>
+		<COL WIDTH=288>
+		<COL WIDTH=66>
+		<COL WIDTH=70>
+		<COL WIDTH=82>
+		<COL WIDTH=76>
+		<TR valign="middle">
+			<TD ROWSPAN=2 WIDTH=32 HEIGHT=8>
+				<P ALIGN=CENTER><B>№№<BR>п/п</B></P></TD>
+			<TD ROWSPAN=2 WIDTH=288>
+				<P ALIGN=CENTER><B>Наименование показателей</B></TD>
+			<TD ROWSPAN=2 WIDTH=66>
+				<P ALIGN=CENTER><B>Всего</B></P>
+			</TD>
+			<TD COLSPAN=3 WIDTH=256>
+				<P ALIGN=CENTER><B>В том числе:</B></TD>
+		</TR>
+		<TR valign="middle">
+			<TD WIDTH=70>
+				<P ALIGN=CENTER><B>рабочих</B></TD>
+			<TD WIDTH=82>
+				<P ALIGN=CENTER><B>женщин</B></TD>
+			<TD WIDTH=76>
+				<P ALIGN=CENTER><B>Молодежи до 35 лет</B></TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=32 HEIGHT=5>
+				<P ALIGN=CENTER><B>1</B></TD>
+			<TD WIDTH=288>
+				<P ALIGN=CENTER><B>2</B></TD>
+			<TD WIDTH=66>
+				<P ALIGN=CENTER><B>3</B></TD>
+			<TD WIDTH=70>
+				<P ALIGN=CENTER><B>4</B></TD>
+			<TD WIDTH=82>
+				<P ALIGN=CENTER><B>5</B></TD>
+			<TD WIDTH=76>
+				<P ALIGN=CENTER><B>6</B></TD>
+		</TR>
+		<TR VALIGN=TOP align="center">
+			<TD WIDTH=32 HEIGHT=5>
+				<P ALIGN=CENTER>1.</TD>
+			<TD WIDTH=288 ALIGN=JUSTIFY>
+				<P>Председатель первичной профсоюзной организации</TD>
+			<TD WIDTH=66  id="T2_13">
+			</TD>
+			<TD WIDTH=70 id="T2_14">
+			</TD>
+			<TD WIDTH=82 id="T2_15">
+			</TD>
+			<TD WIDTH=76 id="T2_16">
+			</TD>
+		</TR>
+		<TR VALIGN=TOP align="center">
+			<TD WIDTH=32 HEIGHT=5>
+				<P ALIGN=CENTER>2.</TD>
+			<TD WIDTH=288>
+				<P ALIGN=JUSTIFY>В том числе, освобожденный
+				(штатный) председатель первичной профсоюзной организации</TD>
+			<TD WIDTH=66 id="T2_23">
+			</TD>
+			<TD WIDTH=70 id="T2_24">
+			</TD>
+			<TD WIDTH=82 id="T2_25">
+			</TD>
+			<TD WIDTH=76 id="T2_26">
+			</TD>
+		</TR>
+		<TR VALIGN=TOP align="center">
+			<TD WIDTH=32 HEIGHT=5>
+				<P ALIGN=CENTER>3.</TD>
+			<TD WIDTH=288>
+				<P ALIGN=JUSTIFY>Членов профкома (кроме
+				председателя)</TD>
+			<TD WIDTH=66 id="T2_33">
+			</TD>
+			<TD WIDTH=70  id="T2_34">
+			</TD>
+			<TD WIDTH=82 id="T2_35">
+			</TD>
+			<TD WIDTH=76 id="T2_36">
+			</TD>
+		</TR>
+		<TR VALIGN=TOP align="center">
+			<TD WIDTH=32 HEIGHT=5>
+				<P ALIGN=CENTER>4.</TD>
+			<TD WIDTH=288>
+				<P ALIGN=JUSTIFY>В том числе, освобожденных
+				(штатных) членов профкома (кроме председателя)</TD>
+			<TD WIDTH=66  id="T2_43">
+			</TD>
+			<TD WIDTH=70 id="T2_44">
+			</TD>
+			<TD WIDTH=82 id="T2_45">
+			</TD>
+			<TD WIDTH=76 id="T2_46">
+			</TD>
+		</TR>
+		<TR VALIGN=TOP align="center">
+			<TD WIDTH=32 HEIGHT=5>
+				<P ALIGN=CENTER>5.</TD>
+			<TD WIDTH=288>
+				<P ALIGN=JUSTIFY>Членов всех комиссий профкома</TD>
+			<TD WIDTH=66  id="T2_53">
+			</TD>
+			<TD WIDTH=70  id="T2_54">
+			</TD>
+			<TD WIDTH=82  id="T2_55">
+			</TD>
+			<TD WIDTH=76  id="T2_56">
+			</TD>
+		</TR>
+		<TR VALIGN=TOP align="center">
+			<TD WIDTH=32 HEIGHT=5>
+				<P ALIGN=CENTER>6.</TD>
+			<TD WIDTH=288>
+				<P ALIGN=JUSTIFY>Членов ревизионной комиссии
+				первичной профсоюзной организации</TD>
+			<TD WIDTH=66  id="T2_63">
+			</TD>
+			<TD WIDTH=70  id="T2_64">
+			</TD>
+			<TD WIDTH=82  id="T2_65">
+			</TD>
+			<TD WIDTH=76  id="T2_66">
+			</TD>
+		</TR>
+		<TR VALIGN=TOP align="center">
+			<TD WIDTH=32 HEIGHT=5>
+				<P ALIGN=CENTER>7.</TD>
+			<TD WIDTH=288>
+				<P ALIGN=JUSTIFY>Председателей цеховых комитетов,
+				профбюро</TD>
+			<TD WIDTH=66  id="T2_73">
+			</TD>
+			<TD WIDTH=70  id="T2_74">
+			</TD>
+			<TD WIDTH=82  id="T2_75">
+			</TD>
+			<TD WIDTH=76  id="T2_76">
+			</TD>
+		</TR>
+		<TR VALIGN=TOP align="center">
+			<TD WIDTH=32 HEIGHT=5>
+				<P ALIGN=CENTER>8.</TD>
+			<TD WIDTH=288>
+				<P ALIGN=JUSTIFY>В том числе, освобожденных
+				(штатных) председателей цеховых комитетов, профбюро</TD>
+			<TD WIDTH=66  id="T2_83">
+			</TD>
+			<TD WIDTH=70  id="T2_84">
+			</TD>
+			<TD WIDTH=82  id="T2_85">
+			</TD>
+			<TD WIDTH=76  id="T2_86">
+			</TD>
+		</TR>
+		<TR VALIGN=TOP align="center">
+			<TD WIDTH=32 HEIGHT=5>
+				<P ALIGN=CENTER>9.</TD>
+			<TD WIDTH=288>
+				<P ALIGN=JUSTIFY>Членов цеховых комитетов, профбюро
+				(кроме председателей)</TD>
+			<TD WIDTH=66  id="T2_93">
+			</TD>
+			<TD WIDTH=70  id="T2_94">
+			</TD>
+			<TD WIDTH=82  id="T2_95">
+			</TD>
+			<TD WIDTH=76  id="T2_96">
+			</TD>
+		</TR>
+		<TR VALIGN=TOP align="center">
+			<TD WIDTH=32 HEIGHT=4>
+				<P ALIGN=CENTER>10.</TD>
+			<TD WIDTH=288>
+				<P ALIGN=JUSTIFY>Профгрупоргов</TD>
+			<TD WIDTH=66  id="T2_103">
+			</TD>
+			<TD WIDTH=70  id="T2_104">
+			</TD>
+			<TD WIDTH=82  id="T2_105">
+			</TD>
+			<TD WIDTH=76  id="T2_106">
+			</TD>
+		</TR>
+	</TABLE>
+</CENTER>
+<BR>
+
+	<P ALIGN=CENTER><B>IV. Сведения о </B><U><B>проведенных
+	в отчетном году</B></U><B> выборах председателя первичной
+	профсоюзной организации, членов профсоюзного комитета, председателей
+	и членов цеховых комитетов, профбюро, профгрупоргов</B></P>
+<BR>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=33>
+	<COL WIDTH=317>
+	<COL WIDTH=58>
+	<COL WIDTH=72>
+	<COL WIDTH=64>
+	<COL WIDTH=77>
+	<TR VALIGN="middle">
+		<TD ROWSPAN=3 WIDTH=33 HEIGHT=1>
+			<P ALIGN=CENTER><B>№№ <BR>п/п</B></TD>
+		<TD ROWSPAN=3 WIDTH=317>
+			<P ALIGN=CENTER><B>Наименование показателей</B>
+		</TD>
+		<TD COLSPAN=3 WIDTH=222>
+			<P ALIGN=CENTER><B>Избрано </B>
+		</TD>
+		<TD ROWSPAN=3 WIDTH=77>
+			<P ALIGN=CENTER><B>Работа за отчетный период признана 
+			неудовлетворительной</B></TD>
+	</TR>
+	<TR VALIGN=middle>
+		<TD ROWSPAN=2 WIDTH=58>
+			<P ALIGN=CENTER><B>Всего</B>
+		</TD>
+		<TD COLSPAN=2 WIDTH=150>
+			<P ALIGN=CENTER><B>В том числе</B></TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=72>
+			<P ALIGN=CENTER><B>впервые</B></TD>
+		<TD WIDTH=64>
+			<P ALIGN=CENTER><B>из резерва</B></TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=33 HEIGHT=5>
+			<P ALIGN=CENTER><B>1</B></TD>
+		<TD WIDTH=317>
+			<P ALIGN=CENTER><B>2</B></TD>
+		<TD WIDTH=58>
+			<P ALIGN=CENTER><B>3</B></TD>
+		<TD WIDTH=72>
+			<P ALIGN=CENTER><B>4</B></TD>
+		<TD WIDTH=64>
+			<P ALIGN=CENTER><B>5</B></TD>
+		<TD WIDTH=77>
+			<P ALIGN=CENTER><B>6</B></TD>
+	</TR>
+	<TR VALIGN=TOP ALIGN=CENTER>
+		<TD WIDTH=33 HEIGHT=5>
+			<P ALIGN=CENTER>1.</TD>
+		<TD WIDTH=317 ALIGN=JUSTIFY>
+			<P>Председатель первичной профсоюзной организации</TD>
+		<TD WIDTH=58>
+			<input type=text style="border:0;" size=7 id="T3_13"></input>
+		</TD>
+		<TD WIDTH=72>
+			<input type=text style="border:0;" size=7 id="T3_14"></input>
+		</TD>
+		<TD WIDTH=64>
+			<input type=text style="border:0;" size=7 id="T3_15"></input>
+		</TD>
+		<TD WIDTH=77>
+			<input type=text style="border:0;" size=7 id="T3_16"></input>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP ALIGN=CENTER>
+		<TD WIDTH=33 HEIGHT=5>
+			<P ALIGN=CENTER>2.</TD>
+		<TD WIDTH=317 ALIGN=JUSTIFY>
+			<P>В том числе, освобожденный (штатный) председатель первичной профорганизации</TD>
+		<TD WIDTH=58>
+			<input type=text style="border:0;" size=7 id="T3_23"></input>
+		</TD>
+		<TD WIDTH=72>
+			<input type=text style="border:0;" size=7 id="T3_24"></input>
+		</TD>
+		<TD WIDTH=64>
+			<input type=text style="border:0;" size=7 id="T3_25"></input>
+		</TD>
+		<TD WIDTH=77>
+			<input type=text style="border:0;" size=7 id="T3_26"></input>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP ALIGN=CENTER>
+		<TD WIDTH=33 HEIGHT=5>
+			<P ALIGN=CENTER>3.</TD>
+		<TD WIDTH=317 ALIGN=JUSTIFY>
+			<P>Членов профсоюзного комитета первичной
+			профорганизации (кроме председателя)</TD>
+		<TD WIDTH=58>
+			<input type=text style="border:0;" size=7 id="T3_33"></input>
+		</TD>
+		<TD WIDTH=72>
+			<input type=text style="border:0;" size=7 id="T3_34"></input>
+		</TD>
+		<TD WIDTH=64>
+			<input type=text style="border:0;" size=7 id="T3_35"></input>
+		</TD>
+		<TD WIDTH=77>
+			<input type=text style="border:0;" size=7 id="T3_36"></input>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP ALIGN=CENTER>
+		<TD WIDTH=33 HEIGHT=5>
+			<P ALIGN=CENTER>4.</TD>
+		<TD WIDTH=317 ALIGN=JUSTIFY>
+			<P>Председателей цеховых комитетов, профбюро</TD>
+		<TD WIDTH=58>
+			<input type=text style="border:0;" size=7 id="T3_43"></input>
+		</TD>
+		<TD WIDTH=72>
+			<input type=text style="border:0;" size=7 id="T3_44"></input>
+		</TD>
+		<TD WIDTH=64>
+			<input type=text style="border:0;" size=7 id="T3_45"></input>
+		</TD>
+		<TD WIDTH=77>
+			<input type=text style="border:0;" size=7 id="T3_46"></input>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP ALIGN=CENTER>
+		<TD WIDTH=33 HEIGHT=5>
+			<P ALIGN=CENTER>5.</TD>
+		<TD WIDTH=317 ALIGN=JUSTIFY>
+			<P>В том числе, освобожденных (штатных) председателей цеховых комитетов, профбюро</TD>
+		<TD WIDTH=58>
+			<input type=text style="border:0;" size=7 id="T3_53"></input>
+		</TD>
+		<TD WIDTH=72>
+			<input type=text style="border:0;" size=7 id="T3_54"></input>
+		</TD>
+		<TD WIDTH=64>
+			<input type=text style="border:0;" size=7 id="T3_55"></input>
+		</TD>
+		<TD WIDTH=77>
+			<input type=text style="border:0;" size=7 id="T3_56"></input>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP ALIGN=CENTER>
+		<TD WIDTH=33 HEIGHT=5>
+			<P ALIGN=CENTER>6.</TD>
+		<TD WIDTH=317 ALIGN=JUSTIFY>
+			<P>Членов цеховых комитетов, профбюро (кроме
+			председателей)</TD>
+		<TD WIDTH=58>
+			<input type=text style="border:0;" size=7 id="T3_63"></input>
+		</TD>
+		<TD WIDTH=72>
+			<input type=text style="border:0;" size=7 id="T3_64"></input>
+		</TD>
+		<TD WIDTH=64>
+			<input type=text style="border:0;" size=7 id="T3_65"></input>
+		</TD>
+		<TD WIDTH=77>
+			<input type=text style="border:0;" size=7 id="T3_66"></input>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP ALIGN=CENTER>
+		<TD WIDTH=33 HEIGHT=4>
+			<P ALIGN=CENTER>7.</TD>
+		<TD WIDTH=317 ALIGN=JUSTIFY>
+			<P>Профгрупоргов</TD>
+		<TD WIDTH=58>
+			<input type=text style="border:0;" size=7 id="T3_73"></input>
+		</TD>
+		<TD WIDTH=72>
+			<input type=text style="border:0;" size=7 id="T3_74"></input>
+		</TD>
+		<TD WIDTH=64>
+			<input type=text style="border:0;" size=7 id="T3_75"></input>
+		</TD>
+		<TD WIDTH=77>
+			<input type=text style="border:0;" size=7 id="T3_76"></input>
+		</TD>
+	</TR>
+</TABLE>
+<P ALIGN=JUSTIFY>	<U>Данные раздела IV
+заполняются первичными профсоюзными организациями, которые проводили
+выборы в отчетном году.</U></P>
+
+		</TD>
+	</TR>
+</TABLE>
+
+</TD></TR></TABLE>
+
+<DIV style="page-break-after:always"></DIV>
+
+<TABLE CLASS="PAGE"><TR><TD valign="top">
+
+<BR>
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 CLASS="SPISOK">
+<TR><TD>
+
+	<P ALIGN=CENTER><B>V. Сведения об организации
+	подготовки, повышения квалификации и переподготовки профсоюзных
+	кадров и актива</B>
+<BR></P>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=39>
+	<COL WIDTH=206>
+	<COL WIDTH=52>
+	<COL WIDTH=121>
+	<COL WIDTH=87>
+	<COL WIDTH=109>
+	<TR VALIGN=middle ALIGN=center>
+		<TD ROWSPAN=3 WIDTH=39 HEIGHT=2>
+			<P ALIGN=CENTER><B>№№<BR>
+			п/п</B></TD>
+		<TD ROWSPAN=3 WIDTH=206>
+			<P ALIGN=CENTER><B>Наименование</B>
+			<B>показателей</B></TD>
+		<TD COLSPAN=4 WIDTH=411>
+			<B>Прошли обучение</B>
+		</TD>
+	</TR>
+	<TR VALIGN=middle ALIGN=center>
+		<TD ROWSPAN=2 WIDTH=52>
+				<P ALIGN=CENTER><B>Всего</B>
+		</TD>
+		<TD COLSPAN=3 WIDTH=345>
+			<P ALIGN=CENTER><B>В том числе</B></TD>
+	</TR>
+	<TR VALIGN=middle ALIGN=JUSTIFY>
+		<TD>
+			<B>Прошли&nbsp;профессио-<br>нальную&nbsp;подготовку (кратко-срочные	се- минары по програм- мам не менее 30 час.)</B></TD>
+		<TD>
+				<B>Повысили&nbsp;квали- фикацию&nbsp;(по&nbsp;прог- раммам не менее 72 час.)</B>
+		</TD>
+		<TD>
+			<B>Прошли&nbsp;профессио-<br>нальную перепод- готовку&nbsp;(по&nbsp;програм- мам 500 час. и более)</B></TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=39 HEIGHT=1>
+			<P ALIGN=CENTER><FONT SIZE=2><B>1</B></TD>
+		<TD WIDTH=206>
+			<P ALIGN=CENTER><FONT SIZE=2><B>2</B></TD>
+		</TD>
+		<TD WIDTH=52>
+			<P ALIGN=CENTER><FONT SIZE=2><B>3</B></TD>
+		<TD WIDTH=121>
+			<P ALIGN=CENTER><FONT SIZE=2><B>4</B></TD>
+		<TD WIDTH=87>
+			<P ALIGN=CENTER><FONT SIZE=2><B>5</B></TD>
+		<TD WIDTH=109>
+			<P ALIGN=CENTER><FONT SIZE=2><B>6</B></TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=39 HEIGHT=1>
+			<P ALIGN=CENTER>1.</TD>
+		<TD WIDTH=206 ALIGN=JUSTIFY>
+		       <B>Профсоюзные </B><U><B>освобо-<br>жденные&nbsp;(штатные)</B></U><B> работники, всего:</B><br>
+				                <B>в том числе:</B>
+		</TD>
+		<TD WIDTH=52>
+			<input type=text style="border:0;" size=7 id="T4_13"></input>
+		</TD>
+		<TD WIDTH=121>
+			<input type=text style="border:0;" size=7 id="T4_14"></input>
+		</TD>
+		<TD WIDTH=87>
+			<input type=text style="border:0;" size=7 id="T4_15"></input>
+		</TD>
+		<TD WIDTH=109>
+			<input type=text style="border:0;" size=7 id="T4_16"></input>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=39 HEIGHT=1>
+			<P ALIGN=CENTER>2.</TD>
+		<TD WIDTH=206 ALIGN=JUSTIFY>
+			<P>Председатель первичной профсоюзной организации</TD>
+		<TD WIDTH=52>
+			<input type=text style="border:0;" size=7 id="T4_23"></input>
+		</TD>
+		<TD WIDTH=121>
+			<input type=text style="border:0;" size=7 id="T4_24"></input>
+		</TD>
+		<TD WIDTH=87>
+			<input type=text style="border:0;" size=7 id="T4_25"></input>
+		</TD>
+		<TD WIDTH=109>
+			<input type=text style="border:0;" size=7 id="T4_26"></input>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=39 HEIGHT=1>
+			<P ALIGN=CENTER>3.</TD>
+		<TD WIDTH=206 ALIGN=JUSTIFY>
+			<P>Члены профкома (кроме председателя)</TD>
+		<TD WIDTH=52>
+			<input type=text style="border:0;" size=7 id="T4_33"></input>
+		</TD>
+		<TD WIDTH=121>
+			<input type=text style="border:0;" size=7 id="T4_34"></input>
+		</TD>
+		<TD WIDTH=87>
+			<input type=text style="border:0;" size=7 id="T4_35"></input>
+		</TD>
+		<TD WIDTH=109>
+			<input type=text style="border:0;" size=7 id="T4_36"></input>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=39 HEIGHT=1>
+			<P ALIGN=CENTER>4.</TD>
+		<TD WIDTH=206 ALIGN=JUSTIFY>
+			<P>Председатели цеховых комитетов, профбюро</TD>
+		<TD WIDTH=52>
+			<input type=text style="border:0;" size=7 id="T4_43"></input>
+		</TD>
+		<TD WIDTH=121>
+			<input type=text style="border:0;" size=7 id="T4_44"></input>
+		</TD>
+		<TD WIDTH=87>
+			<input type=text style="border:0;" size=7 id="T4_45"></input>
+		</TD>
+		<TD WIDTH=109>
+			<input type=text style="border:0;" size=7 id="T4_46"></input>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=39 HEIGHT=1>
+			<P ALIGN=CENTER><FONT SIZE=2>5.</TD>
+		<TD WIDTH=206 ALIGN=JUSTIFY>
+			<P>Специалисты аппарата профкома</TD>
+		<TD WIDTH=52>
+			<input type=text style="border:0;" size=7 id="T4_53"></input>
+		</TD>
+		<TD WIDTH=121>
+			<input type=text style="border:0;" size=7 id="T4_54"></input>
+		</TD>
+		<TD WIDTH=87>
+			<input type=text style="border:0;" size=7 id="T4_55"></input>
+		</TD>
+		<TD WIDTH=109>
+			<input type=text style="border:0;" size=7 id="T4_56"></input>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=39 HEIGHT=1>
+			<P ALIGN=CENTER><FONT SIZE=2>6. 
+		</TD>
+		<TD WIDTH=206 ALIGN=JUSTIFY>
+				<B>Профсоюзный&nbsp;</B><U><B>неосвобо-
+				жденный</B></U><B> актив, всего:</B><br>
+				            <B>в том числе: </B>
+		</TD>
+		<TD WIDTH=52>
+			<input type=text style="border:0;" size=7 id="T4_63"></input>
+		</TD>
+		<TD WIDTH=121>
+			<input type=text style="border:0;" size=7 id="T4_64"></input>
+		</TD>
+		<TD WIDTH=87>
+			<input type=text style="border:0;" size=7 id="T4_65"></input>
+		</TD>
+		<TD WIDTH=109>
+			<input type=text style="border:0;" size=7 id="T4_66"></input>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=39 HEIGHT=1>
+			<P ALIGN=CENTER><FONT SIZE=2>7.</TD>
+		<TD WIDTH=206 ALIGN=JUSTIFY>
+			<P>Неосвобожденный предсе-датель первичной
+			профсоюз-ной организации</TD>
+		<TD WIDTH=52>
+			<input type=text style="border:0;" size=7 id="T4_73"></input>
+		</TD>
+		<TD WIDTH=121>
+			<input type=text style="border:0;" size=7 id="T4_74"></input>
+		</TD>
+		<TD WIDTH=87>
+			<input type=text style="border:0;" size=7 id="T4_75"></input>
+		</TD>
+		<TD WIDTH=109>
+			<input type=text style="border:0;" size=7 id="T4_76"></input>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=39 HEIGHT=1>
+			<P ALIGN=CENTER><FONT SIZE=2>8.</TD>
+		<TD WIDTH=206 ALIGN=JUSTIFY>
+			<P>Члены профкома</TD>
+		<TD WIDTH=52>
+			<input type=text style="border:0;" size=7 id="T4_83"></input>
+		</TD>
+		<TD WIDTH=121>
+			<input type=text style="border:0;" size=7 id="T4_84"></input>
+		</TD>
+		<TD WIDTH=87>
+			<input type=text style="border:0;" size=7 id="T4_85"></input>
+		</TD>
+		<TD WIDTH=109>
+			<input type=text style="border:0;" size=7 id="T4_86"></input>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=39 HEIGHT=1>
+			<P ALIGN=CENTER><FONT SIZE=2>9<FONT SIZE=2>.</TD>
+		<TD WIDTH=206 ALIGN=JUSTIFY> 
+				Председатели цеховых комитетов, профбюро
+		</TD>
+		<TD WIDTH=52>
+			<input type=text style="border:0;" size=7 id="T4_93"></input>
+		</TD>
+		<TD WIDTH=121>
+			<input type=text style="border:0;" size=7 id="T4_94"></input>
+		</TD>
+		<TD WIDTH=87>
+			<input type=text style="border:0;" size=7 id="T4_95"></input>
+		</TD>
+		<TD WIDTH=109>
+			<input type=text style="border:0;" size=7 id="T4_96"></input>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=39 HEIGHT=1>
+			<P ALIGN=CENTER><FONT SIZE=2>10.</TD>
+		<TD WIDTH=206 ALIGN=JUSTIFY>
+				Члены цеховых
+				комитетов, профбюро
+		</TD>
+		<TD WIDTH=52>
+			<input type=text style="border:0;" size=7 id="T4_103"></input>
+		</TD>
+		<TD WIDTH=121>
+			<input type=text style="border:0;" size=7 id="T4_104"></input>
+		</TD>
+		<TD WIDTH=87>
+			<input type=text style="border:0;" size=7 id="T4_105"></input>
+		</TD>
+		<TD WIDTH=109>
+			<input type=text style="border:0;" size=7 id="T4_106"></input>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=39 HEIGHT=1>
+			<P ALIGN=CENTER><FONT SIZE=2>11.</TD>
+		<TD WIDTH=206 ALIGN=JUSTIFY>
+			<P>Профгрупорги</TD>
+		<TD WIDTH=52>
+			<input type=text style="border:0;" size=7 id="T4_113"></input>
+		</TD>
+		<TD WIDTH=121>
+			<input type=text style="border:0;" size=7 id="T4_114"></input>
+		</TD>
+		<TD WIDTH=87>
+			<input type=text style="border:0;" size=7 id="T4_115"></input>
+		</TD>
+		<TD WIDTH=109>
+			<input type=text style="border:0;" size=7 id="T4_116"></input>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=39 HEIGHT=1>
+			<P ALIGN=CENTER><FONT SIZE=2>1<FONT SIZE=2>2.</TD>
+		<TD WIDTH=206 ALIGN=JUSTIFY>
+			<P>Члены всех комиссий, уполномоченные</TD>
+		<TD WIDTH=52>
+			<input type=text style="border:0;" size=7 id="T4_123"></input>
+		</TD>
+		<TD WIDTH=121>
+			<input type=text style="border:0;" size=7 id="T4_124"></input>
+		</TD>
+		<TD WIDTH=87>
+			<input type=text style="border:0;" size=7 id="T4_125"></input>
+		</TD>
+		<TD WIDTH=109>
+			<input type=text style="border:0;" size=7 id="T4_126"></input>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=39>
+			<P ALIGN=CENTER><FONT SIZE=2>1<FONT SIZE=2>3.</TD>
+		<TD WIDTH=206 ALIGN=JUSTIFY>
+			Члены ревизионной комиссии	первичной профсоюзной  организации</TD>
+		<TD WIDTH=52>
+			<input type=text style="border:0;" size=7 id="T4_133"></input>
+		</TD>
+		<TD WIDTH=121>
+			<input type=text style="border:0;" size=7 id="T4_134"></input>
+		</TD>
+		<TD WIDTH=87>
+			<input type=text style="border:0;" size=7 id="T4_135"></input>
+		</TD>
+		<TD WIDTH=109>
+			<input type=text style="border:0;" size=7 id="T4_136"></input>
+		</TD>
+	</TR>
+</TABLE>
+	<P ALIGN=JUSTIFY>
+	Количество школ профсоюзного актива ____, в них обучено	_____ чел.</P>
+	<P ALIGN=JUSTIFY>Доля финансовых средств, израсходованных на обучение профсоюзного актива, по смете расходов
+	первичной профсоюзной организации  _____ %.</P>
+
+		</TD>
+	</TR>
+</TABLE>
+
+
+</TD></TR></TABLE>
+
+<DIV style="page-break-after:always"></DIV>
+
+<TABLE CLASS="PAGE"><TR><TD valign="top">
+
+<BR>
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 CLASS="SPISOK">
+<TR><TD>
+
+	<P ALIGN=CENTER><B>
+	VI. Сведения о резерве кадров на председателя первичной профсоюзной
+	организации, председателей цеховых комитетов, профбюро,
+	профгрупоргов</B></P>
+	<BR>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=7 CELLSPACING=0 ALIGN=CENTER>
+	<COL WIDTH=42>
+	<COL WIDTH=260>
+	<COL WIDTH=80>
+	<COL WIDTH=62>
+	<COL WIDTH=61>
+	<COL WIDTH=79>
+	<TR VALIGN=middle>
+		<TD ROWSPAN=2 WIDTH=42 HEIGHT=2>
+			<P ALIGN=CENTER><B>№№ п/п</B></TD>
+		<TD ROWSPAN=2 WIDTH=260>
+			<P ALIGN=CENTER><B>Наименование показателей</B></TD>
+		<TD ROWSPAN=2 WIDTH=80>
+			<P ALIGN=CENTER><B>Всего (резерв)</B></TD>
+		<TD COLSPAN=3 WIDTH=231>
+			<P ALIGN=CENTER><B>В том числе</B></P>
+		</TD>
+	</TR>
+	<TR VALIGN=middle>
+		<TD WIDTH=62>
+			<P ALIGN=CENTER><B>рабочих</B></TD>
+		<TD WIDTH=61>
+			<P ALIGN=CENTER><B>женщин</B></TD>
+		<TD WIDTH=79>
+			<P ALIGN=CENTER><B>молодежь<BR>
+			до 35 лет</B></TD>
+	</TR>
+	<TR VALIGN=TOP align=center>
+		<TD WIDTH=42 HEIGHT=5>
+			<P ALIGN=CENTER>1.</TD>
+		<TD WIDTH=260 align=justify>
+			<P>На председателя первичной профсоюзной
+			организации</TD>
+		<TD WIDTH=80>
+			<input type=text style="border:0;" size=7 id="T5_13"></input>
+		</TD>
+		<TD WIDTH=62>
+			<input type=text style="border:0;" size=7 id="T5_14"></input>
+		</TD>
+		<TD WIDTH=61>
+			<input type=text style="border:0;" size=7 id="T5_15"></input>
+		</TD>
+		<TD WIDTH=79>
+			<input type=text style="border:0;" size=7 id="T5_16"></input>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP align=center>
+		<TD WIDTH=42 HEIGHT=5>
+			<P ALIGN=CENTER>2.</TD>
+		<TD WIDTH=260 align=justify>
+			<P>На председателей цеховых комитетов,
+			профбюро</TD>
+		<TD WIDTH=80>
+			<input type=text style="border:0;" size=7 id="T5_23"></input>
+		</TD>
+		<TD WIDTH=62>
+			<input type=text style="border:0;" size=7 id="T5_24"></input>
+		</TD>
+		<TD WIDTH=61>
+			<input type=text style="border:0;" size=7 id="T5_25"></input>
+		</TD>
+		<TD WIDTH=79>
+			<input type=text style="border:0;" size=7 id="T5_26"></input>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP align=center>
+		<TD WIDTH=42 HEIGHT=4>
+			<P ALIGN=CENTER>3.</TD>
+		<TD WIDTH=260 align=justify>
+			<P>На профгрупоргов</TD>
+		<TD WIDTH=80>
+			<input type=text style="border:0;" size=7 id="T5_33"></input>
+		</TD>
+		<TD WIDTH=62>
+			<input type=text style="border:0;" size=7 id="T5_34"></input>
+		</TD>
+		<TD WIDTH=61>
+			<input type=text style="border:0;" size=7 id="T5_35"></input>
+		</TD>
+		<TD WIDTH=79>
+			<input type=text style="border:0;" size=7 id="T5_36"></input>
+		</TD>
+	</TR>
+</TABLE>
+	<BR>
+	<P ALIGN=JUSTIFY><U>Данные раздела VI заполняются с учетом данных, указанных в пунках 1, 7, 10 раздела
+	III.</U></P>
+	<BR>
+	<BR>
+        <BR>
+        <BR>
+        <BR>
+        <BR>
+        <BR>
+        <BR>
+        <BR>
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR>
+   <TD width=1%>
+       Председатель&nbsp;первичной&nbsp;профсоюзной&nbsp;организации
+   </TD>
+   <TD>
+       ______________________
+   </TD>
+   <TD>
+     &nbsp;
+   </TD>
+   <TD>
+       ______________________
+   </TD>
+   </TR><TR>
+   <TD width=1%>
+   &nbsp;
+   </TD>
+   <TD align=center>
+      <font style="font-size: 10pt;">(подпись) </font>
+   </TD>
+   <TD width=1%>
+     &nbsp;
+   </TD>
+   <TD align=center>
+        <font style="font-size: 10pt;">(Ф.И.О.)</font>  
+  </TD>
+  </TR><TR>
+   <TD width=1%>
+   &nbsp;
+   </TD>
+   <TD align=center colspan=3>
+        <br><font style="font-size: 10pt;">
+	Дата заполнения  &laquo;_____&raquo; ______________ 20___г.
+        <br><br><br>
+        М.П.
+       </font>
+   </TD>
+
+</TR></TABLE>
+        <BR>
+        <BR>
+	<BR>
+        <BR>
+        <BR>
+        <BR>
+        <BR>
+        <BR>
+        <BR>
+        <BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<P ALIGN=CENTER>______________________</P>
+	<BR>
+</DL>
+<P ALIGN=JUSTIFY><FONT style="font-size: 10pt;">	*
+Если в учебном заведении имеются отдельные первичные профсоюзные
+организации учащихся и работников, то каждая из них самостоятельно
+составляет отчет по форме №2.<P ALIGN=JUSTIFY>
+	Профсоюзные организации производственных
+объединений, холдинговых компаний, акционерных обществ и т.п. (ранее
+именовавшиеся объединенными комитетами профсоюза или профкомами
+объединений с правами райкомов), <U>в структуру
+которых входят самостоятельные первичные профсоюзные организации на
+правах юридических лиц,</U> представляют в свою
+территориальную организацию профсоюза, а при ее отсутствии &ndash; в
+ЦК профсоюза и соответствующее территориальное объединение
+организаций профсоюзов, статистический отчет <U>по
+форме № 7</U> с включением показателей по каждой
+первичной профсоюзной организации, входящей в данную организацию.<P ALIGN=CENTER>
+<BR>
+<P ALIGN=CENTER>_______________________<P ALIGN=JUSTIFY>
+<BR>
+<P><FONT style="font-size: 8pt;">	<U><B>К форме
+статистической отчетности прилагается пояснительная записка с
+указанием причин изменений, происшедших в структуре и численности
+профсоюзной организации в сравнении с предыдущим отчетным периодом.</B></U></P>
+</TD></TR></TABLE>
+
+</TD></TR></TABLE>
+</TD></TR></TABLE>
+    </BODY>
+</HTML>

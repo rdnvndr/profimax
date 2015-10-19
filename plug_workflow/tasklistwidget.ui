@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TaskListWidget</class>
+ <widget class="QWidget" name="TaskListWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>429</width>
+    <height>337</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QSplitter" name="splitter">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="TableSqlWidget" name="tableMailView"/>
+     <widget class="TextEditWidget" name="textEdit"/>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>TableSqlWidget</class>
+   <extends>QTableView</extends>
+   <header location="global">tablesqlwidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>TextEditWidget</class>
+   <extends>QTextEdit</extends>
+   <header>texteditwidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

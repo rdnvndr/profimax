@@ -1,0 +1,110 @@
+<HTML>
+    <HEAD>
+        <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <STYLE> 
+	      @media all { 
+             TABLE.SCREEN { height: 100%; width: 100%;}
+             TABLE.SCREEN TD {}
+             TABLE.PAGE {height: 595pt;width: 842pt; FONT-SIZE: 12pt;font-family:Sans-serif;}
+                          
+             TABLE.SPISOK {
+	        FONT-SIZE: 12pt;font-family:Sans-serif; 
+                BORDER-WIDTH: 1PX 1PX 1PX 1PX;
+		BORDER-COLOR: #000;
+		BORDER-STYLE: SOLID;
+                TEXT-ALIGN: CENTER;
+		<!-- white-space:NOWRAP; -->
+	     }
+
+             TABLE.SPISOK TD{ 
+		FONT-SIZE: 12pt;font-family:Sans-serif;
+                BORDER-WIDTH: 1PX 1PX 1PX 1PX;
+		BORDER-COLOR: #000;
+		BORDER-STYLE: SOLID;
+                TEXT-ALIGN: CENTER;
+		<!-- white-space:NOWRAP; -->
+	     }
+	
+        }
+	@media screen { 
+             BODY { background-color: #a0a0a4;}
+             TABLE.PAGE { 
+                  background-color: white; 
+                  border: solid black; 
+                  border-width: 1pt 5pt 5pt 1pt; 
+                  padding: 15pt; 
+                  height: 730pt;
+                  width: 1035pt; 
+             }
+        }
+        @media print { 
+            TABLE.SCREEN { height: 100%; width: 100%; }
+            TABLE.PAGE { height: 100%; width: 100%;padding: 15pt;}
+        }	
+	</STYLE>
+   
+    </HEAD>
+<script type="text/javascript">
+
+function getValue(name)
+{
+	
+	var param ="";
+    if (document.getElementById(name).type!="text")
+  	  param = document.getElementById(name).innerHTML;
+  	else
+  	  param = document.getElementById(name).value;
+  	
+  	
+  	
+    return param;
+}
+
+function setValue(name,value)
+{
+  if (document.getElementById(name).type!="text")
+	 document.getElementById(name).innerHTML=value;
+  else
+	 document.getElementById(name).value=value;
+}
+</script>
+
+<BODY>
+<TABLE CLASS="SCREEN"><TR><TD>
+<TABLE CLASS="PAGE"><TR><TD valign="top">
+
+<P ALIGN=RIGHT>"Роспрофмаш. Форма 1Э предоставляется <br>профкомами в терпрофорган <br>до 30.01: 30.04: 30.07: 30.10"</P>
+<TABLE BORDER=1 CELLPADDING=5 CELLSPACING=0 WIDTH=100% CLASS="SPISOK">
+	<TR>
+		<TD ALIGN=CENTER COLSPAN=8>ИНФОРМАЦИЯ<BR>о социально-экономических показателях работы машиностроителей республики Башкортостан</TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2>&nbsp;&nbsp;Предприятие&nbsp;&nbsp; </TD>
+		<TD COLSPAN=2>Численность работников на 1-ое число месяца, след. за отчетным кварталом</TD>
+		<TD ROWSPAN=2>Объем выпуска продукции за квартал (млн. руб.)</TD>
+		<TD ROWSPAN=2>Темп роста объемов производства (%)</TD>
+		<TD ROWSPAN=2>Среднемесячная начисл. заработная плата (руб.)</TD>
+		<TD ROWSPAN=2>Темп роста зарплаты (%)</TD>
+		<TD ROWSPAN=2>Доля тарифа в зарплате (%)</TD>
+	</TR>
+	<TR>
+		<TD>Всего</TD>
+		<TD>в т.ч. профсоюза</TD>
+
+	</TR>
+	<TR>
+		<TD id="C1"></TD>
+		<TD id="C2"></TD>
+		<TD id="C3"></TD>
+		<TD id="C4"></TD>
+		<TD id="C5"></TD>
+		<TD id="C6"></TD>
+		<TD id="C7"></TD>
+		<TD id="C8"></TD>
+	</TR>
+</TABLE>
+
+</TD></TR></TABLE>
+</TD></TR></TABLE>
+    </BODY>
+</HTML>

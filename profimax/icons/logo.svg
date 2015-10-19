@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="90"
+   inkscape:export-xdpi="90"
+   inkscape:export-filename="/home/andrey/project/profimax/trunk/profimax/icons/logo.png"
+   id="svg2876"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   width="96"
+   height="96"
+   sodipodi:docname="logo.svg">
+  <metadata
+     id="metadata2882">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs2880">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective2884" />
+    <filter
+       id="filter5543"
+       inkscape:label="Drop shadow"
+       width="1.5"
+       height="1.5"
+       x="-.25"
+       y="-.25">
+      <feGaussianBlur
+         id="feGaussianBlur5545"
+         in="SourceAlpha"
+         stdDeviation="1,000000"
+         result="blur" />
+      <feColorMatrix
+         id="feColorMatrix5547"
+         result="bluralpha"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0,500000 0 " />
+      <feOffset
+         id="feOffset5549"
+         in="bluralpha"
+         dx="1,000000"
+         dy="1,000000"
+         result="offsetBlur" />
+      <feMerge
+         id="feMerge5551"
+         result="fbSourceGraphic">
+        <feMergeNode
+           id="feMergeNode5553"
+           in="offsetBlur" />
+        <feMergeNode
+           id="feMergeNode5555"
+           in="SourceGraphic" />
+      </feMerge>
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5557" />
+      <feGaussianBlur
+         id="feGaussianBlur5559"
+         in="fbSourceGraphicAlpha"
+         stdDeviation="1,000000"
+         result="blur" />
+      <feColorMatrix
+         id="feColorMatrix5561"
+         result="bluralpha"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0,500000 0 " />
+      <feOffset
+         id="feOffset5563"
+         in="bluralpha"
+         dx="-1,000000"
+         dy="-1,000000"
+         result="offsetBlur" />
+      <feMerge
+         id="feMerge5565">
+        <feMergeNode
+           id="feMergeNode5567"
+           in="offsetBlur" />
+        <feMergeNode
+           id="feMergeNode5569"
+           in="fbSourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1270"
+     inkscape:window-height="972"
+     id="namedview2878"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="51.733707"
+     inkscape:cy="39.675223"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2876" />
+  <path
+     style="fill:#53b025;fill-opacity:1;stroke:#527d31;stroke-width:2.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 20.948223,7.6875 c -4.988906,4.871253 -10.023215,9.698771 -15.2812497,14.28125 -0.8379155,1.035435 -3.3473774,1.940781 -1.5,3.21875 4.1359336,4.256226 4.1080721,10.613573 3,16.0625 -2.2491844,9.218627 -4.5688959,19.215992 -0.9375,28.40625 4.0243327,10.354824 15.3522157,15.487282 25.7499997,16.75 4.470297,1.090925 10.097149,-1.060655 13.53125,2.8125 l 2.15625,2.40625 2.15625,-2.40625 c 3.4341,-3.873163 9.060953,-1.721575 13.53125,-2.8125 10.39778,-1.26274 21.725667,-6.39517 25.75,-16.75 C 92.735869,60.465992 90.416158,50.468627 88.166973,41.25 87.058901,35.801073 87.06229,29.443726 91.198223,25.1875 93.045601,23.909531 90.504888,23.004185 89.666973,21.96875 84.408938,17.386271 79.374629,12.558753 74.385723,7.6875 70.732516,10.341034 66.7649,12.856714 62.073223,12.90625 57.114659,13.415094 52.118565,11.864669 48.354473,8.625 47.945726,8.2663973 48.351773,8.62825 47.667223,8 46.982668,8.6438745 47.38822,8.2663973 46.979473,8.625 43.215381,11.864669 38.219287,13.415094 33.260723,12.90625 28.569046,12.85671 24.60143,10.341034 20.948223,7.6875 z"
+     id="path4355"
+     sodipodi:nodetypes="ccccccccccccccccccccc" />
+  <text
+     xml:space="preserve"
+     style="font-size:18px;font-style:normal;font-weight:bold;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#527d31;stroke-width:0.60000002;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Andale Mono Bold"
+     x="47.439339"
+     y="34.691494"
+     id="text3814"><tspan
+       sodipodi:role="line"
+       x="47.439339"
+       y="34.691494"
+       id="tspan3818">Профи</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:24px;font-style:normal;font-weight:bold;fill:#ffffff;fill-opacity:1;stroke:#527d31;stroke-width:0.60000002;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Andale Mono Bold"
+     x="17.141243"
+     y="57.757359"
+     id="text3822"><tspan
+       sodipodi:role="line"
+       id="tspan3824"
+       x="17.141243"
+       y="57.757359">MAX</tspan></text>
+  <path
+     style="fill:#ffe605;fill-opacity:1;stroke:#f0da05;stroke-width:1.46200000999999991;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter5543)"
+     d="M 2.7086628,61.85475 92.54882,61.677973 86.892446,79.03933 8.5422942,78.862553 2.7086628,61.85475 z"
+     id="rect3826"
+     sodipodi:nodetypes="ccccc" />
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:Andale Mono"
+     x="8.2521563"
+     y="74.396446"
+     id="text3828"><tspan
+       sodipodi:role="line"
+       id="tspan3830"
+       x="8.2521563"
+       y="74.396446">ИВЦ «Эгида»</tspan></text>
+</svg>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TreeSqlWidget</class>
+ <widget class="QWidget" name="TreeSqlWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>491</width>
+    <height>385</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayoutTree">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="Line" name="line">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayoutTree">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QToolButton" name="toolButtonFirst">
+         <property name="toolTip">
+          <string>Начало</string>
+         </property>
+         <property name="text">
+          <string>Начало</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../profimax/res.qrc">
+           <normaloff>:/about/icons/top.png</normaloff>:/about/icons/top.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="autoRaise">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QToolButton" name="toolButtonLast">
+         <property name="toolTip">
+          <string>Конец</string>
+         </property>
+         <property name="text">
+          <string>Конец</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../profimax/res.qrc">
+           <normaloff>:/about/icons/bottom.png</normaloff>:/about/icons/bottom.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="autoRaise">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="Line" name="lineToolView1">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QToolButton" name="toolButtonInsert">
+         <property name="toolTip">
+          <string>Вставить</string>
+         </property>
+         <property name="text">
+          <string>Вставить</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../profimax/res.qrc">
+           <normaloff>:/about/icons/edit_add.png</normaloff>:/about/icons/edit_add.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="autoRaise">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QToolButton" name="toolButtonEdit">
+         <property name="toolTip">
+          <string>Редактировать</string>
+         </property>
+         <property name="text">
+          <string>Редакт.</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../profimax/res.qrc">
+           <normaloff>:/about/icons/edit.png</normaloff>:/about/icons/edit.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="autoRaise">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QToolButton" name="toolButtonDelete">
+         <property name="toolTip">
+          <string>Удалить</string>
+         </property>
+         <property name="text">
+          <string>Удалить</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../profimax/res.qrc">
+           <normaloff>:/about/icons/edit_remove.png</normaloff>:/about/icons/edit_remove.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="autoRaise">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="Line" name="lineToolView1_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QToolButton" name="toolButtonRefresh">
+         <property name="toolTip">
+          <string>Обновить</string>
+         </property>
+         <property name="text">
+          <string>Обновить</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../profimax/res.qrc">
+           <normaloff>:/about/icons/view-refresh.png</normaloff>:/about/icons/view-refresh.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="toolButtonStyle">
+          <enum>Qt::ToolButtonIconOnly</enum>
+         </property>
+         <property name="autoRaise">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="Line" name="line_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTreeWidget" name="treeWidget">
+     <column>
+      <property name="text">
+       <string notr="true">1</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../profimax/res.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>toolButtonFirst</sender>
+   <signal>clicked()</signal>
+   <receiver>treeWidget</receiver>
+   <slot>scrollToTop()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>78</x>
+     <y>19</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>245</x>
+     <y>206</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>toolButtonLast</sender>
+   <signal>clicked()</signal>
+   <receiver>treeWidget</receiver>
+   <slot>scrollToBottom()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>31</x>
+     <y>19</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>245</x>
+     <y>206</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

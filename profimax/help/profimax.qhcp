@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QHelpCollectionProject version="1.0">
+    <assistant>
+        <title>Профи MAX</title>
+        <applicationIcon>images/handbook.png</applicationIcon>
+        <cacheDirectory>roand/profimax</cacheDirectory>
+        <startPage>qthelp://com.roand.profimax/doc/index.html</startPage>
+        <aboutMenuText>
+            <text>О Программе</text>
+        </aboutMenuText>
+        <aboutDialog>
+            <file>about.txt</file>
+            <icon>images/logo.png</icon>
+        </aboutDialog>
+        <enableDocumentationManager>false</enableDocumentationManager>
+        <enableAddressBar>false</enableAddressBar>
+        <enableFilterFunctionality>false</enableFilterFunctionality>
+    </assistant>
+    <docFiles>
+        <generate>
+            <file>
+                <input>profimax.qhp</input>
+                <output>./../../bin/help/profimax.qch</output>
+                </file>
+            </generate>
+        <register>
+            <file>./../../bin/help/profimax.qch</file>
+            </register>
+        </docFiles>
+    </QHelpCollectionProject>

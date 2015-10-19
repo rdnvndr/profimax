@@ -1,0 +1,124 @@
+<HTML>
+    <HEAD>
+        <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <STYLE> 
+        @media all { 
+             TABLE.SCREEN { height: 100%; width: 100%;}
+             TABLE.SCREEN TD {}
+             TABLE.PAGE {height: 595pt;width: 842pt; FONT-SIZE: 12pt;font-family:Sans-serif;}
+                          
+             TABLE.SPISOK {
+	        FONT-SIZE: 12pt;font-family:Sans-serif; 
+                BORDER-WIDTH: 1PX 1PX 1PX 1PX;
+		BORDER-COLOR: #000;
+		BORDER-STYLE: SOLID;
+                TEXT-ALIGN: CENTER;
+		<!-- white-space:NOWRAP; -->
+	     }
+
+             TABLE.SPISOK TD{ 
+		FONT-SIZE: 12pt;font-family:Sans-serif;
+                BORDER-WIDTH: 1PX 1PX 1PX 1PX;
+		BORDER-COLOR: #000;
+		BORDER-STYLE: SOLID;
+                TEXT-ALIGN: CENTER;
+		<!-- white-space:NOWRAP; -->
+	     }
+	
+        }
+	@media screen { 
+             BODY { background-color: #a0a0a4;}
+             TABLE.PAGE { 
+                  background-color: white; 
+                  border: solid black; 
+                  border-width: 1pt 5pt 5pt 1pt; 
+                  padding: 15pt; 
+                  height: 730pt;
+                  width: 1035pt; 
+             }
+        }
+        @media print { 
+            TABLE.SCREEN { height: 100%; width: 100%; }
+            TABLE.PAGE { height: 100%; width: 100%;padding: 15pt;}
+        }	
+	</STYLE>
+   
+    </HEAD>
+<script type="text/javascript">
+
+function getValue(name)
+{
+	
+	var param ="";
+    if (document.getElementById(name).type!="text")
+  	  param = document.getElementById(name).innerHTML;
+  	else
+  	  param = document.getElementById(name).value;
+  	
+  	
+  	
+    return param;
+}
+
+function setValue(name,value)
+{
+  if (document.getElementById(name).type!="text")
+	 document.getElementById(name).innerHTML=value;
+  else
+	 document.getElementById(name).value=value;
+}
+</script>
+
+<BODY>
+<TABLE CLASS="SCREEN"><TR><TD>
+<TABLE CLASS="PAGE"><TR><TD valign="top">
+
+<P ALIGN=RIGHT>"Срок предоставления в территориальный профорган,а при его отсутствии в ЦК профсоюза ежегодно - к 20 января"</P>
+<TABLE BORDER=0 CELLPADDING=5 CELLSPACING=0 WIDTH=100% NOWRAP CLASS="SPISOK">
+	<TR>
+		<TD COLSPAN=14 align="center">СВЕДЕНИЯ<BR>о первичной профсоюзной организации профсоюза машиностроителей РФ на <font id="DATA"></font></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=3 NOWRAP>Наименование</TD>
+		<TD ROWSPAN=3 NOWRAP>Индекс</TD>
+		<TD ROWSPAN=3 NOWRAP>Адрес</TD>
+		<TD COLSPAN=6 NOWRAP>ФИО, № телефона, факса</TD>
+		<TD COLSPAN=4 NOWRAP>Численность всего</TD>
+		<TD ROWSPAN=3 NOWRAP>Юр.<BR>лицо</TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2 NOWRAP>Председатель<BR>профкома</TD>
+		<TD ROWSPAN=2 NOWRAP>Телефон</TD>
+		<TD ROWSPAN=2 NOWRAP>Председатель<BR>ППО</TD>
+		<TD ROWSPAN=2 NOWRAP>Телефон</TD>
+		<TD ROWSPAN=2 NOWRAP>Руководитель</TD>
+		<TD ROWSPAN=2 NOWRAP>Телефон</TD>
+		<TD ROWSPAN=2 NOWRAP>Рабочих</TD>
+		<TD ROWSPAN=2 NOWRAP>Членов<BR>профсоюза</TD>
+		<TD COLSPAN=2 NOWRAP>Платных профработников за счет</TD>
+	</TR>
+	<TR>
+		<TD NOWRAP>пр.бюжд.</TD>
+		<TD NOWRAP>раб.дат</TD>
+	</TR>
+	<TR>
+		<TD id="NAME"></TD>
+		<TD id="INDEX"></TD>
+		<TD id="ADDRESS"></TD>
+		<TD id="PRED"></TD>
+		<TD id="PREDTEL"></TD>
+		<TD id="PREDPPO"></TD>
+		<TD id="PREDPPOTEL"></TD>
+		<TD id="RUK"></TD>
+		<TD id="RUKTEL"></TD>
+		<TD id="WORKER"></TD>
+		<TD id="MEMBER"></TD>
+		<TD id="MEMBER1"></TD>
+		<TD id="MEMEBER2"></TD>
+		<TD id="UR"></TD>
+	</TR>
+</TABLE>
+</TD></TR></TABLE>
+</TD></TR></TABLE>
+    </BODY>
+</HTML>

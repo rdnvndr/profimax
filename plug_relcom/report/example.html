@@ -1,0 +1,118 @@
+<HTML>
+    <HEAD>
+        <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <STYLE> @media all { TABLE.SCREEN { height: 100%; width: 100%; }
+	TABLE.SCREEN TD { text-align: center; }
+	TABLE.PAGE TD { padding: 10pt; }
+	TABLE.TITLEBLOCK { width: 841pt;height: 595pt; }
+	TH { font: bold 10pt Arial; padding-right: 10pt; text-align: left; vertical-align: top; }
+	TABLE.TITLEBLOCK TD { font: normal 10pt Arial; text-align: left; width: 80%; padding: 0pt; }
+	DIV { padding: 1pt; }
+	P { margin: 0pt; }
+	TEXTAREA { border:none; width:100%; overflow:hidden; font:10pt Arial; }}
+	input { border:none; width:100%; overflow:hidden; font:10pt Arial;}
+	@media screen { BODY { background-color: #a0a0a4; }
+	TABLE.PAGE { background-color: white; border: solid black; border-width: 1px 5px 5px 1px; padding: 16px; width: 60%; height: 90%; }
+	DIV { border-bottom: 1px solid buttonface; }
+	@media print { TABLE.SCREEN { height: 100%; width: 100%; }
+	TABLE.PAGE { height: 100%; width: 100%; }
+	TABLE.TITLEBLOCK { height: 20%; }
+	
+	</STYLE>
+   
+    </HEAD>
+<script type="text/javascript">
+
+function getValue(name)
+{
+	
+	var param ="";
+    if (document.getElementById(name).type!="text")
+  	  param = document.getElementById(name).innerHTML;
+  	else
+  	  param = document.getElementById(name).value;
+  	
+  	
+  	
+    return param;
+}
+
+function setValue(name,value)
+{
+  if (document.getElementById(name).type!="text")
+	 document.getElementById(name).innerHTML=value;
+  else
+	 document.getElementById(name).value=value;
+}
+</script>
+
+    <BODY>
+        <TABLE CLASS="SCREEN">
+            <TR>
+                <TD>
+                    <TABLE CLASS="PAGE">
+                        <TR>
+                            <TD>
+                                <TABLE CLASS="TITLEBLOCK">
+									
+									<TR>
+										
+										<TD>
+										<br>
+
+<P ALIGN=RIGHT>"Срок предоставления в территориальный профорган,а при его отсутствии в ЦК профсоюза ежегодно - к 20 января"</P>
+<TABLE BORDER=1 CELLPADDING=5 CELLSPACING=0 WIDTH=100% NOWRAP>
+	<TR>
+		<TD ALIGN=CENTER COLSPAN=14>СВЕДЕНИЯ<BR>о первичной профсоюзной организации профсоюза машиностроителей РФ на <font id="DATA"></font></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=3 NOWRAP>Наименование</TD>
+		<TD ROWSPAN=3 NOWRAP>Индекс</TD>
+		<TD ROWSPAN=3 NOWRAP>Адрес</TD>
+		<TD COLSPAN=6 NOWRAP>ФИО, № телефона, факса</TD>
+		<TD COLSPAN=4 NOWRAP>Численность всего</TD>
+		<TD ROWSPAN=3 NOWRAP>Юр.<BR>лицо</TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2 NOWRAP>Председатель<BR>профкома</TD>
+		<TD ROWSPAN=2 NOWRAP>Телефон</TD>
+		<TD ROWSPAN=2 NOWRAP>Председатель<BR>ППО</TD>
+		<TD ROWSPAN=2 NOWRAP>Телефон</TD>
+		<TD ROWSPAN=2 NOWRAP>Руководитель</TD>
+		<TD ROWSPAN=2 NOWRAP>Телефон</TD>
+		<TD ROWSPAN=2 NOWRAP>Рабочих</TD>
+		<TD ROWSPAN=2 NOWRAP>Членов<BR>профсоюза</TD>
+		<TD COLSPAN=2 NOWRAP>Платных профработников за счет</TD>
+	</TR>
+	<TR>
+		<TD NOWRAP>пр.бюжд.</TD>
+		<TD NOWRAP>раб.дат</TD>
+	</TR>
+	<TR>
+		<TD id="NAME"></TD>
+		<TD id="INDEX"></TD>
+		<TD id="ADDRESS"></TD>
+		<TD id="PRED"></TD>
+		<TD id="PREDTEL"></TD>
+		<TD id="PREDPPO"></TD>
+		<TD id="PREDPPOTEL"></TD>
+		<TD id="RUK"></TD>
+		<TD id="RUKTEL"></TD>
+		<TD id="WORKER"></TD>
+		<TD id="MEMBER"></TD>
+		<TD id="MEMBER1"></TD>
+		<TD id="MEMEBER2"></TD>
+		<TD id="UR"></TD>
+	</TR>
+</TABLE>
+									</TR>
+								</TABLE>
+                            </TD>
+                        </TR>
+                        
+                    </TABLE>
+                </TD>
+            </TR>
+        </TABLE>
+    </BODY>
+</HTML>

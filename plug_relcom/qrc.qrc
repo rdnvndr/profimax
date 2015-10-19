@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>icons/science.png</file>
+        <file>icons/point.png</file>
+        <file>icons/document.png</file>
+        <file>icons/help.png</file>
+        <file>icons/brief.png</file>
+        <file>icons/userdel.png</file>
+        <file>icons/group.png</file>
+        <file>icons/find.png</file>
+        <file>icons/user.png</file>
+        <file>icons/document_stop.png</file>
+        <file>icons/nofoto.png</file>
+        <file>icons/kvp.png</file>
+        <file>icons/ppo_mini.png</file>
+    </qresource>
+</RCC>
